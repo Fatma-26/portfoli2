@@ -3,6 +3,9 @@
     margin:0px;
     box-sizing: border-box;
 }
+body{
+    background-color:white;
+}
 header{
     background-color: #FBF6E2;
     display: flex;
@@ -10,9 +13,25 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+
 .logo{
     padding-left: 50px;
     font-size: 50px;
+   
+}
+.navbar{
+    display: flex;
+
+}
+.light{
+    cursor: pointer;
+    color: #FBF6E2;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    background-color:#131842;
+    width: 40px;
+    height: 40px;
    
 }
 .navbar a {
@@ -21,10 +40,12 @@ header{
     text-decoration: none;
     color: black;
 }
-a:hover{
+a ,.light:hover{
     color: #ECCEAE;
 }
 .start-section{
+    margin: 20px;
+    border-radius: 18px;
     background-color: #FBF6E2;
     padding: 30px;
     display: flex;  
@@ -42,6 +63,8 @@ a:hover{
     font-size: 40px;
 }
 .about-section{
+    margin: 20px;
+    border-radius: 18px;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     background-color:#131842;
@@ -67,6 +90,8 @@ a:hover{
     padding-right: 30px;
 }
 .servies-section{
+    margin: 20px;
+    border-radius: 18px;
     display: flex;
    background-color: #FBF6E2; 
    flex-direction: column;
@@ -104,6 +129,8 @@ a:hover{
     line-height: 25px;
 }
 .contactus{
+    margin: 20px;
+    border-radius: 18px;
     background-color:#131842;
     padding-top: 20px;
     display: flex;
