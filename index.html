@@ -6,14 +6,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <title>Protfolio</title>
-  <script>
-    function dark(){
-        
-    }
-  </script>
+  
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="idbody">
     <header>
         <div class="logo">fatma</div>
         <nav class="navbar">
@@ -23,7 +19,7 @@
             <a href="#">Contact us</a>
             </div>
             <div class="light">
-                <p onclick="this.dark()">light</p>
+                <img id="icon" onclick="dark()" src="light_mode_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg">
             </div>
          
         </nav>
@@ -81,4 +77,5 @@
     <footer>
         <p>Made by @@@@</p>
     </footer>
+    <script src="script.js" ></script>
 </body>
