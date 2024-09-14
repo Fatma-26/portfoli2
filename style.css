@@ -130,6 +130,63 @@ a :hover{
     line-height: 25px;
 }
 
+.contactus h2{
+    display: flex;
+    color: white;
+   justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contactinfo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+
+}
+.name{
+    background-color:#FBF6E2;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+}
+#msg{
+    height: 300px;
+}
+
+.cimg{
+    margin: 40px;
+   
+    height: 650px;
+} 
+.btn{
+    width: 150px;
+    border-radius: 20px;
+    height: 30px;
+   
+    margin-top: 20px;
+    margin-bottom: 10px;
+} 
+
+.contactus{
+    margin: 20px;
+    border-radius: 18px;
+   
+   background-color:#131842; 
+ 
+   padding: 30px;
+
+}
+/* 
 
 .contactus{
     margin: 20px;
@@ -158,7 +215,7 @@ a :hover{
 
 .cimg{
     margin: 40px;
-    height: 546px;
+    height: 250px;
     height: 400px;
 } 
 form{
@@ -166,7 +223,7 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+   
    
 }
 input{
@@ -206,7 +263,7 @@ input{
 .btn:hover{
     background-color: #ECCEAE;
     cursor:pointer;
-}
+} */
 footer{
     height: 28px;
     background-color: #FBF6E2;
