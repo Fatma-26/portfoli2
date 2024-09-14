@@ -129,7 +129,7 @@ a :hover{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 25px;
 }
-
+/* 
 .contactus h2{
     display: flex;
     color: white;
@@ -146,7 +146,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+}*/
 input{
     padding: 10px;
     margin: 10px;
@@ -176,17 +176,21 @@ input{
     margin-top: 20px;
     margin-bottom: 10px;
 } 
-
+/*
 .contactus{
     margin: 20px;
     border-radius: 18px;
-   
-   background-color:#131842; 
- 
-   padding: 30px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#131842;
+    flex-direction: column;
+    padding: 30px;
+    display: flex;  
+    justify-content: space-around;
+    line-height: 25px;
+} */
 
-}
-/* 
+
 
 .contactus{
     margin: 20px;
@@ -230,7 +234,7 @@ input{
     border:none;
     background-color:#FBF6E2;
    
-}
+}/* 
 .name{
     border-radius: 20px;
     height: 50px;
@@ -259,11 +263,11 @@ input{
     padding:10Px;
     margin-top: 20px;
     margin-bottom: 10px;
-} 
+}  */
 .btn:hover{
     background-color: #ECCEAE;
     cursor:pointer;
-} */
+} 
 footer{
     height: 28px;
     background-color: #FBF6E2;
