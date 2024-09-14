@@ -214,13 +214,14 @@ input{
 }
 .contactinfo{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .cimg{
-    margin: 40px;
-    height: 250px;
-    height: 400px;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    
 } 
 form{
     
